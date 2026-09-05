@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#071b2f" />
+  <meta name="description" content="Portfólio interativo de Elis Vieira: engenharia, gestão de processos, projetos, indicadores e tecnologia." />
+  <title>Elis Vieira | Trajetória em Movimento</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#inicio">Ir para o conteúdo principal</a>
+  <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Ir para o início"><span>EV</span><strong>ELIS VIEIRA</strong></a>
+    <nav aria-label="Navegação principal">
+      <a href="#perfil">Perfil</a><a href="#trajetoria">Trajetória</a><a href="#projetos">Projetos</a><a href="#formacao">Formação</a>
+    </nav>
+    <button id="presentBtn" class="present-button"><span class="sound-dot"></span> Ouvir apresentação</button>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero section-observe">
+      <div class="grid-glow" aria-hidden="true"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow">PORTFÓLIO PROFISSIONAL · 2026</p>
+        <h1>Transformo complexidade em <em>clareza para decidir.</em></h1>
+        <p class="lead">Engenharia, processos, projetos, indicadores e tecnologia conectados por uma mesma competência: organizar desafios e conduzir entregas com qualidade.</p>
+        <div class="hero-actions">
+          <a class="primary" href="#perfil">Explorar meu perfil <span>↘</span></a>
+          <a class="ghost" href="#projetos">Ver projetos digitais</a>
+        </div>
+        <div class="signature"><span></span> Elis Vieira · Engenheira Civil</div>
+      </div>
+
+      <aside class="avatar-stage reveal" aria-label="Avatar digital de Elis Vieira">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="speech-card" aria-live="polite">
+          <span class="status"><i></i> APRESENTADORA DIGITAL</span>
+          <p id="avatarSpeech">Olá! Eu sou Elis. Quer conhecer o que os dados revelam sobre a minha forma de trabalhar?</p>
+          <div class="speech-actions" role="group" aria-label="Escolha o tema da apresentação">
+            <button data-speech="intro" class="active" aria-pressed="true">Quem sou</button>
+            <button data-speech="profile" aria-pressed="false">Perfil AP</button>
+            <button data-speech="journey" aria-pressed="false">Trajetória</button>
+            <button data-speech="tech" aria-pressed="false">Tecnologia</button>
+          </div>
+        </div>
+        <img class="avatar" src="./assets/avatar-elis.png" alt="Avatar profissional de Elis Vieira usando capacete de engenharia" />
+        <div class="mini-chip chip-a"><strong>AP</strong><span>Analista<br>Planejador</span></div>
+        <div class="mini-chip chip-b"><strong>94</strong><span>SVA<br>de 100</span></div>
+      </aside>
+    </section>
+
+    <section id="perfil" class="profile section-observe">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 · PERFIL COMPORTAMENTAL</p>
+        <h2>Analista Planejador <span>AP</span></h2>
+        <p>Seu resultado combina profundidade analítica e constância no planejamento — uma base valiosa para projetos sofisticados, ambientes regulados e decisões orientadas por evidências.</p>
+      </div>
+
+      <div class="profile-dashboard reveal">
+        <article class="chart-card">
+          <div class="donut-wrap">
+            <div class="donut" role="img" aria-label="Analista 37%, Planejador 27%, Comunicador 21%, Executor 15%"><div><strong>AP</strong><span>perfil<br>predominante</span></div></div>
+          </div>
+          <div class="legend">
+            <button data-trait="Analista" data-copy="Detalhista, precisa, cautelosa e crítica. Busca evidências antes de concluir." class="trait active" aria-pressed="true"><i class="c1"></i><span>Analista</span><strong>37%</strong></button>
+            <button data-trait="Planejador" data-copy="Calma, prudente e constante. Organiza etapas para reduzir riscos e sustentar o ritmo." class="trait" aria-pressed="false"><i class="c2"></i><span>Planejador</span><strong>27%</strong></button>
+            <button data-trait="Comunicador" data-copy="Adaptável e ativa. Conecta pessoas e ajusta a comunicação a diferentes públicos." class="trait" aria-pressed="false"><i class="c3"></i><span>Comunicador</span><strong>21%</strong></button>
+            <button data-trait="Executor" data-copy="Otimista e dinâmica. Move planos para a prática quando a direção está clara." class="trait" aria-pressed="false"><i class="c4"></i><span>Executor</span><strong>15%</strong></button>
+          </div>
+          <div class="trait-detail"><small>LEITURA DO INDICADOR</small><h3 id="traitTitle">Analista</h3><p id="traitCopy">Detalhista, precisa, cautelosa e crítica. Busca evidências antes de concluir.</p></div>
+        </article>
+
+        <div class="insight-stack">
+          <article class="insight-card accent"><span class="card-index">A</span><p>SUBCARACTERÍSTICAS</p><h3>Organização.<br>Especialização.<br>Exatidão.</h3></article>
+          <article class="insight-card"><span class="card-index">B</span><p>HABILIDADE-BASE</p><h3>Organizar e detalhar fatos para resolver projetos sofisticados.</h3></article>
+          <article class="insight-card score-card"><span class="card-index">C</span><p>ATITUDE SVA</p><div class="score-line"><strong data-count="94">0</strong><sup>/100</sup></div><h3>Classificação Super</h3><small>Índice de atitude obtido em avaliação por competências.</small></article>
+        </div>
+      </div>
+
+      <article class="sva-dashboard reveal" aria-label="Resultado da avaliação SVA">
+        <div class="sva-summary">
+          <p class="eyebrow">AVALIAÇÃO POR COMPETÊNCIAS</p>
+          <div class="sva-score"><strong>94</strong><span>de 100</span></div>
+          <h3>Atitude de alta performance</h3>
+          <p>O resultado complementa o perfil AP ao mostrar capacidade de aprender, crescer, assumir responsabilidade e manter disciplina na execução.</p>
+        </div>
+        <div class="competency-list">
+          <div><span><b>Aprendizado Contínuo</b><strong>100</strong></span><i style="--score:100%"></i></div>
+          <div><span><b>Resiliência &amp; Crescimento</b><strong>100</strong></span><i style="--score:100%"></i></div>
+          <div><span><b>Proatividade &amp; Dono</b><strong>97</strong></span><i style="--score:97%"></i></div>
+          <div><span><b>Responsabilidade &amp; Disciplina</b><strong>97</strong></span><i style="--score:97%"></i></div>
+          <div><span><b>Comunicação &amp; Clareza</b><strong>89</strong></span><i style="--score:89%"></i></div>
+          <div><span><b>Colaboração &amp; Feedback</b><strong>82</strong></span><i style="--score:82%"></i></div>
+        </div>
+      </article>
+
+      <div class="strength-grid reveal">
+        <article><span>01</span><h3>Qualidade como padrão</h3><p>Trabalha com atenção aos detalhes, critérios claros e compromisso com entregas bem executadas.</p></article>
+        <article><span>02</span><h3>Prevenção de riscos</h3><p>Usa planejamento e organização para antecipar problemas e estruturar respostas.</p></article>
+        <article><span>03</span><h3>Decisão fundamentada</h3><p>Compreende fatos, compara cenários e transforma dados em ações práticas.</p></article>
+        <article><span>04</span><h3>Constância sob pressão</h3><p>Mantém compostura, diplomacia e foco quando o contexto exige precisão.</p></article>
+      </div>
+      <p class="method-note">O Profiler é um instrumento de mapeamento comportamental e não um diagnóstico. A leitura representa tendências observadas no momento da avaliação.</p>
+    </section>
+
+    <section id="trajetoria" class="journey section-observe">
+      <div class="section-heading reveal"><p class="eyebrow">02 · TRAJETÓRIA EM MOVIMENTO</p><h2>Experiência construída por <span>desafios reais</span></h2><p>Uma evolução que integra engenharia, operação, conformidade, liderança, dados e inovação.</p></div>
+      <div class="timeline reveal">
+        <button class="timeline-item active" data-stage="0"><span>01</span><div><small>BASE INDUSTRIAL</small><h3>Precisão técnica e auditoria</h3></div></button>
+        <button class="timeline-item" data-stage="1"><span>02</span><div><small>OBRAS E INFRAESTRUTURA</small><h3>Processos, logística e conformidade</h3></div></button>
+        <button class="timeline-item" data-stage="2"><span>03</span><div><small>OPERAÇÃO MULTIDISCIPLINAR</small><h3>Produtividade e indicadores</h3></div></button>
+        <button class="timeline-item" data-stage="3"><span>04</span><div><small>EXPANSÃO CORPORATIVA</small><h3>Governança e padronização</h3></div></button>
+        <button class="timeline-item" data-stage="4"><span>05</span><div><small>NEGÓCIO PRÓPRIO + TECH</small><h3>Engenharia, dados e IA</h3></div></button>
+      </div>
+      <article class="stage-panel reveal">
+        <div><p id="stageKicker">O DESAFIO</p><h3 id="stageTitle">Tornar materiais e informações rastreáveis</h3><p id="stageText">Análise técnica, composição de custos e auditoria interna para identificar falhas em fluxos de materiais e fortalecer os controles.</p></div>
+        <div class="impact"><small>IMPACTO</small><strong id="stageImpact">Auditoria concluída com sucesso</strong><p id="stageResult">Correções implementadas e reconhecimento formal pela contribuição ao resultado.</p></div>
+      </article>
+    </section>
+
+    <section id="projetos" class="projects section-observe">
+      <div class="section-heading reveal"><p class="eyebrow">03 · TECNOLOGIA APLICADA</p><h2>Projetos que transformam <span>dados em experiência</span></h2></div>
+      <div class="project-grid">
+        <a class="project-card porsche reveal" href="https://porsche-sales-intelligence-dio.elis23-eng.chatgpt.site" target="_blank" rel="noopener">
+          <div class="project-top"><span>DATA EXPERIENCE</span><b>↗</b></div><div class="project-visual bars"><i></i><i></i><i></i><i></i><i></i></div>
+          <h3>Porsche Sales Intelligence</h3><p>Dashboard interativo com filtros executivos, receita, volume, ticket médio e análise temporal.</p><div class="tags"><span>Dashboard</span><span>Indicadores</span><span>UX</span></div>
+        </a>
+        <a class="project-card wise reveal" href="https://chat-wise-money-72.lovable.app/" target="_blank" rel="noopener">
+          <div class="project-top"><span>IA CONVERSACIONAL</span><b>↗</b></div><div class="project-visual chat"><i>Olá! Vamos organizar seus objetivos?</i><i>Meta registrada ✓</i></div>
+          <h3>Wise Money</h3><p>Assistente financeiro acessível construído com IA generativa, PRD, fluxos e validação funcional.</p><div class="tags"><span>IA</span><span>Produto</span><span>Vibe Coding</span></div>
+        </a>
+      </div>
+    </section>
+
+    <section id="formacao" class="learning section-observe">
+      <div class="section-heading reveal"><p class="eyebrow">04 · FORMAÇÃO CONTÍNUA</p><h2>Conhecimento que acompanha a <span>transformação</span></h2></div>
+      <div class="learning-layout">
+        <article class="degree-card reveal"><div class="degree-icon">⌁</div><small>FORMAÇÃO-BASE</small><h3>Engenharia Civil</h3><p>Visão sistêmica, raciocínio técnico e responsabilidade sobre decisões e entregas.</p></article>
+        <article class="degree-card reveal"><div class="degree-icon">◎</div><small>ESPECIALIZAÇÃO EM CURSO</small><h3>Orçamento, Planejamento e Controle</h3><p>Aprofundamento em custos, cronogramas, desempenho e governança de projetos.</p></article>
+        <div class="skills-cloud reveal">
+          <span>Gestão de Projetos</span><span>Power BI</span><span>Excel Avançado</span><span>IA Generativa</span><span>MS Project</span><span>Power Query</span><span>ISO 9001</span><span>Prompt Engineering</span><span>GitHub</span><span>n8n</span><span>Python</span><span>JavaScript</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing section-observe">
+      <div class="closing-copy reveal"><p class="eyebrow">PRÓXIMO DESAFIO</p><h2>Planejar com método.<br>Analisar com profundidade.<br><span>Entregar com propósito.</span></h2></div>
+      <div class="closing-avatar reveal"><img src="./assets/avatar-elis.png" alt="Avatar de Elis Vieira apresentando" /><button id="finalSpeech">Ouvir mensagem final <span>▶</span></button></div>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#inicio"><span>EV</span><strong>ELIS VIEIRA</strong></a><p>Engenharia · Processos · Projetos · Dados · Tecnologia</p><p>Portfólio profissional interativo · 2026</p></footer>
+  <script src="./script.js"></script>
+</body>
+</html>
